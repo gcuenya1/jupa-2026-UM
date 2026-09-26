@@ -16,6 +16,12 @@ para Railway.
   con el nombre correcto sin que la persona tenga que volver a escribirlo.
 - Se armó `server.js` + `package.json` para que Railway pueda buildear y
   correr el proyecto (antes era un único .html suelto).
+- Botón **"↺ Empezar de nuevo"** (arriba a la derecha y también en el banner
+  final como "Terminé — que pase el siguiente"). Pide confirmación y borra lo
+  que la Sala guardó en ese navegador (nombre, recorrido, formularios), así la
+  siguiente persona que use la misma compu arranca de cero.
+- Se agregaron `<!DOCTYPE html>`, `<meta charset="utf-8">` y el `viewport`
+  para que se vea bien en celulares y los acentos no dependan del servidor.
 - Nada del contenido original de las estaciones (quiz, kanban, IA, bugs, QA,
   deploy, seguridad, certificado) se tocó — todo el agregado es aditivo.
 
